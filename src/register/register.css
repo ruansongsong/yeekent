@@ -1,0 +1,60 @@
+.top-image{
+	width: 100%;
+}
+.icon{
+	display: block;
+	margin-right: 5px;
+	width: 20px;
+}
+.register_help{
+	/*position: relative;*/
+	padding: 10px 15px;
+}
+.weui_cells_checkbox{
+	float: left;
+	display: inline-block;
+}
+.weui_icon_checked{
+	display: inline-block;
+
+}
+.weui_cells_checkbox .weui_icon_checked:before{
+		display: inline-block;
+		font-size: 18px;
+}
+.label{
+	display: inline-block;
+	font-size: 16px;
+	color: #888;
+}
+.open-popup{
+	color: #888;
+	text-decoration: underline;
+}
+.service-detail{
+	padding: 15px 0;
+	text-align: center;
+}
+.service-detail h1{
+	margin-bottom: 0;
+	font-size: 24px;
+	color: #04BE02;
+}
+.service-detail p{
+	margin-top: 0;
+}
+ol{
+	padding-left: 2em;
+}
+.or{
+	font-size: 16px;
+	text-align: center;
+	color: #888;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

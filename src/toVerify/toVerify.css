@@ -1,0 +1,23 @@
+.weui_input{
+	display: inline-block;
+	width: 60%;
+}
+.get-verify-button{
+	padding: 2px 5px;	
+	float: right;
+	display: inline-block;
+	color: #fff;
+	background: #04BE02;
+	text-decoration: none;
+	border: 0;
+}
+.weui_label{
+	width: 60px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="../../static/style/weui.css">
+		<link rel="stylesheet" type="text/css" href="../../static/style/jquery-weui.min.css">
+		<link rel="stylesheet" type="text/css" href="register.css">
+		<title>注册</title>
+	</head>
+	<body>
+		<div class="register-wrapper">
+			<section>
+				<img  class="top-image" src="images/top_image.png">
+			</section>
+			<form action="" method="post" id="form">
+				<div class="weui_cells">
+					<div class="weui_cell">
+						<div class="weui_cell_hd">
+							<img class="icon" src="images/icon_phone.png">
+						</div>
+						<div class="weui_cell_bd weui_cell_primary">
+							<input class="weui_input" type="number" placeholder="请输入手机号">
+						</div>
+					</div>
+					<div class="weui_cell">
+						<div class="weui_cell_hd">
+							<img class="icon" src="images/icon_name.png">
+						</div>
+						<div class="weui_cell_bd weui_cell_primary">
+							<input class="weui_input" type="text" placeholder="请输入姓名">
+						</div>
+					</div>
+				</div>
+				<div class="register_help  clearfix">
+					<div class="weui_cells_checkbox">
+						<input type="checkbox" class="weui_check" name="checkbox1" checked="checked" id="checkbox-1-1">
+						<i class="weui_icon_checked"></i>
+						<label  class="label" for="checkbox-1-1">
+							我同意
+							<a href="javascript:;" class="open-popup" data-target="#service-intro">服务条款</a>
+							中的所有内容
+						</label>
+					</div>
+				</div>
+				<div class="weui_btn_area">
+					<a class="weui_btn weui_btn_primary" href="javascript:" id="showTooltips">注册</a>
+					<p class="or">或</p>
+					<a class="weui_btn weui_btn_primary" href="javascript:" id="showTooltips">体验一下</a>
+				</div>
+			</form>
+		</div>
+		<!-- 服务条款的内容 -->
+		<div id="service-intro" class="weui-popup-container">
+			<div class="weui-popup-modal">
+				<article class="weui_article">
+					<header class="service-detail">
+						<h1>用户服务协议</h1>
+						<p>亿建通达公司</p>
+					</header>
+					<section>
+						<!--  <h2 class="title">章标题</h2>
+						<section>
+							<h3>1.1 节标题</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute</p>
+						</section>
+						<section>
+							<h3>1.2 节标题</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</section> -->
+						<p>《用户服务协议》（下称“本协议”）系用户与广东亿健通达信息科技有限公司（下称“亿健公司”）就亿健公司所提供的服务达成的协议。亿健公司在此特别提醒用户：在注册前请务必审慎阅读、充分理解本协议各条款内容，特别是免除或者限制责任的条款。若用户未满18周岁，应在监护人监护、指导下阅读本协议和使用本服务。用户在注册过程中点击同意后，即视为用户已经阅读并完全接受本协议项下的全部条款。</p>
+						<p>一、用户注册时必须详细并正确填写个人信息，注册后如有变更，请及时通过微信平台或拨打客服热线4008-6555-30进行修改，亿健公司应及时、有效地为用户变更信息。亿健公司不承担因用户提供信息有误或未及时更新信息造成的任何损失。用户注册成功后，账号和密码由用户自行保管，用户对使用该账号进行的活动承担责任。</p>
+						<p>  二、本协议项下的服务仅作为用户出院后康复指导，且仅供参考，不作为诊疗的依据。如遇到紧急情况请及时到医院就诊，亿健公司不对此承担任何法律责任。</p>
+						<p>三、本协议项下的服务以收费方式提供，仅限用户本人使用。</p>
+						<p>四、亿健公司有权决定所提供的服务资费标准及方式，用户有权自行选择各项服务。用户服务费用一经支付后原则上不予以退费，如因特殊原因需要办理退费请致电客服4008-6555-30，亿健公司有权单方决定是否退费。</p>
+						<p>五、用户在亿健平台使用第三方提供的产品或服务时，除应遵守本协议约定外，还应遵守第三方的用户协议。亿健公司和第三方对可能出现的纠纷在法律规定和约定的范围内各自承担责任。</p>
+						<p>六、隐私声明 
+						<ol>
+						<li>亿健公司尊重并保护用户的个人隐私，未经用户同意，不对外向任何第三方提供、公开或共享用户注册资料中的个人身份信息，但下列情况除外：事先获得用户的授权；根据法律法规要求；根据相关政府行政、司法部门的要求等。
+						</li>
+						<li>用户理解并在此授权同意，若亿健公司与第三方合作向用户提供相关服务时，该第三方同意承担与亿健公司同等的保护用户隐私的责任，则亿健公司有权将用户的注册资料等提供给第三方。
+						</li>
+						<li>用户理解并在此授权同意，对于用户登录或留存的个人资料，亿健公司有权在合理合法的范围内加以使用，用于统计数据分析、网络行为调查、院后随访、康复指导、服务推荐等用途。在不透露单个用户隐私资料的前提下，亿健公司有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。
+						</li>
+						</ol>
+						</p>
+						<p>七、亿健公司有权根据经营环境变化修改相关服务条款及资费标准，在服务条款或资费标准修改前，亿健公司将在相应服务页面进行通知或公告，而无需另行逐一通知用户。亿健公司修改服务条款或资费标准后，若用户不接受修改后的条款或资费标准，有权在通知或公告送达用户后14日内申请停止使用服务，如用户继续使用相关服务，视为用户接受亿健公司对条款的修改。</p>
+						<p>八、用户与亿健公司之间发生任何纠纷或争议，应先友好协商解决，协商不成的，双方同意提请广州仲裁委员会仲裁。</p>
+						<p>九、本协议项下所有的通知均通过重要页面公告的方式进行，该等通知于发送之日视为已送达用户。</p>
+					</section>
+					<section>
+						<a href="javascript:;" class="weui_btn weui_btn_plain_primary close-popup">关闭</a>
+					</section>
+				</article>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../static/js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../../static/js/jquery-weui.min.js"></script>
+	</body>
+</html>
