@@ -1,0 +1,53 @@
+.top-image{
+	width: 100%;
+}
+.icon{
+	display: block;
+	margin-right: 5px;
+	width: 20px;
+}
+.login_help{
+	/*position: relative;*/
+	padding: 10px 15px;
+}
+.weui_cells_checkbox{
+	float: left;
+	display: inline-block;
+}
+.weui_icon_checked{
+	display: inline-block;
+
+}
+.weui_cells_checkbox .weui_icon_checked:before{
+		display: inline-block;
+		font-size: 18px;
+}
+.label{
+	display: inline-block;
+	font-size: 16px;
+	color: #888;
+}
+.login-forget-pwd{
+	float: right;
+	font-size: 16px;
+	color: #888;
+	text-decoration: none;
+}
+.footer{
+	position: absolute;
+	bottom: 16px;
+	width: 100%;
+	text-align: center;
+}
+.footer a{
+	font-size: 16px;
+	color: #888;
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
