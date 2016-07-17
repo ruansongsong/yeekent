@@ -1,0 +1,23 @@
+header{
+	padding: 2em 0;
+	text-align: center;
+}
+.logo{
+	width: 200px;
+}
+.slogn{
+	color: #888;
+}
+.weui_tab{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.icon{
+	width: 24px;
+	height: 24px;
+}
+.icon-nav{
+	width: 28px;
+	height: 28px;
+}
