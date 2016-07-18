@@ -51,6 +51,11 @@ header{
 	color: #888;
 	font-weight: lighter;
 }
+.icon-cell{
+	display: block;
+	width: 20px;
+	margin-right: 5px;
+}
 .weui_tab{
 	position: fixed;
 	width: 100%;
@@ -64,17 +69,4 @@ header{
 .icon-nav{
 	width: 28px;
 	height: 28px;
-}
-.weui_grids{
-	background: #fff;
-}
-
-.grids-four{
-	width: 25%;
-}
-.grids-four:nth-child(3n):before{
-	border-right-width: 1px;
-}
-.grid-four:nth-child(4n):before{
-	border-right-width: 0;
 }
