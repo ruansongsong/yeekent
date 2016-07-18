@@ -1,3 +1,6 @@
+body{
+	background: #fbf9fe;
+}
 header{
 	padding: 2em 0;
 	text-align: center;
@@ -20,4 +23,7 @@ header{
 .icon-nav{
 	width: 28px;
 	height: 28px;
+}
+.weui_grids{
+	background: #fff;
 }
