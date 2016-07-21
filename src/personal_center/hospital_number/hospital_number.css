@@ -1,0 +1,153 @@
+body{
+	background: #fbf9fe;
+}
+header{
+	position: fixed;
+	top: 0;
+	padding: 3px 0;
+	width: 100%;
+	height: 44px;
+	box-sizing: border-box;
+	background: #f7f7fa;
+	z-index: 999;
+}
+.header-left{
+	position: absolute;
+	left: 14px;
+	top: 14px;
+	display: block;
+	font-size: 14px;
+	line-height: 21px;
+	color: #888;
+}
+.header-right{
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	display: block;
+}
+.header-right a{
+	font-size: 16px;
+	color: #888;
+}
+.header-back{
+	float: left;
+	margin-left: 5px;
+	padding-left: 12px;
+	color: #888;
+}
+.header-back:before{
+	content: "";
+	position: absolute;
+	display: block;
+	top: 2px;
+	left: 0;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #888;
+	border-width: 1px 0 0 1px;
+	margin-left: 3px;
+	margin-top: 1px;
+	-webkit-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+.title{
+	font-size: 14px;
+	text-align: center;
+	line-height: 44px;
+	color: #888;
+	font-weight: lighter;
+}
+.category-title{
+	position: fixed;
+	height: 20px;
+	width: 100%;
+	top: 44px;
+	background: #f7f7fa;
+}
+.category-title p{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	color: #888;
+}
+.category-bd{
+	position: relative;
+	margin: 68px 0 44px 0;
+	background: #fff;
+}
+.category-bd:before{
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	transform-origin: 0 0;
+	transform: scaleY(0.5);
+	-webkit-transform:scaleY(0.5);
+
+}
+.category-bd:after{
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	transform-origin: 0 0;
+	transform: scaleY(0.5);
+	-webkit-transform:scaleY(0.5);
+
+}
+.category-item{
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+}
+.category-item .hospital-number{
+	width: 50%;
+}
+.category-item img{
+	width: 24px;
+	height: 24px;
+}
+.category-item:before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	transform-origin: 0 0;
+	transform: scaleY(0.5);
+	-webkit-transform:scaleY(0.5);
+}
+.bottom{
+	display: block;;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 44px;
+	background: #04BE02;
+	line-height: 44px;
+	text-align: center;
+}
+.bottom-button img{
+	width: 16px;
+	vertical-align: middle;
+}
+.bottom-button span{
+	color: #fff;
+	font-size: 16px;
+	vertical-align: middle;
+}
