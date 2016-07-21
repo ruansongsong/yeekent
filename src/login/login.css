@@ -10,6 +10,7 @@ body{
 	width: 20px;
 }
 .login_help{
+	display: block;
 	/*position: relative;*/
 	padding: 10px 15px;
 }
@@ -25,8 +26,7 @@ body{
 		display: inline-block;
 		font-size: 18px;
 }
-.label{
-	display: inline-block;
+.weui_cells_checkbox  span{
 	font-size: 16px;
 	color: #888;
 }
