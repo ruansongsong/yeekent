@@ -29,6 +29,7 @@ body{
 .weui_cells_checkbox  span{
 	font-size: 16px;
 	color: #888;
+	vertical-align: middle;
 }
 .login-forget-pwd{
 	float: right;

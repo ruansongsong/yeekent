@@ -133,7 +133,7 @@ header{
 	-webkit-transform:scaleY(0.5);
 }
 .bottom{
-	display: block;;
+	display: block;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
